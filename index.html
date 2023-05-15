@@ -1,0 +1,40 @@
+
+<body>
+  <h1>Registration Form</h1>
+  
+  <form id="registration-form">
+    <label for="name">Name:</label>
+    <input type="text" id="name" required/><br/>
+    
+    <label for="email">Email:</label>
+    <input type="email" id="email" required/><br/>
+    
+    <label for="password">Password:</label>
+    <input type="password" id="password" required/><br/>
+    
+    <label for="dob">Date of Birth:</label>
+    <input type="date" id="dob" required/><br/>
+    
+    <input type="checkbox" id="accepted" required/>
+    <label for="accepted">Click here to accept the terms and conditions</label><br/>
+    
+    <button type="submit">Submit</button>
+  </form>
+
+  <h2>Today's Entries</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Email</th>
+        <th>Password</th>
+        <th>DOB</th>
+        <th>Accepted terms</th>
+      </tr>
+    </thead>
+    <tbody id="table-body"></tbody>
+  </table>
+
+  <script src="index.js"></script>
+</body>
+</html>
